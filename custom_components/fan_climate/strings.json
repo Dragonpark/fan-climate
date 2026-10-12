@@ -1,0 +1,49 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Fan Climate Control",
+        "description": "Select the fan to control and the temperature source entity. The number of fan speeds will be automatically detected.",
+        "data": {
+          "fan_entity": "Fan",
+          "temp_entity": "Temperature source"
+        },
+        "data_description": {
+          "fan_entity": "The fan entity to control.",
+          "temp_entity": "A climate or temperature sensor entity to read the current temperature from."
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "This fan is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Fan Climate Control Options",
+        "description": "Adjust the fan control parameters.",
+        "data": {
+          "temp_entity": "Temperature source",
+          "num_speeds": "Number of fan speeds",
+          "temp_step": "Temperature step per speed increase"
+        },
+        "data_description": {
+          "temp_entity": "A climate or temperature sensor entity to read the current temperature from.",
+          "num_speeds": "How many discrete speed levels the fan supports.",
+          "temp_step": "The temperature difference between each speed increase."
+        }
+      }
+    }
+  },
+  "entity": {
+    "number": {
+      "temp_step": {
+        "name": "Temperature Step"
+      },
+      "num_speeds": {
+        "name": "Number of Speeds"
+      }
+    }
+  }
+}

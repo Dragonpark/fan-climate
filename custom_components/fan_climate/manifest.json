@@ -1,0 +1,9 @@
+{
+  "domain": "fan_climate",
+  "name": "Fan Climate Control",
+  "codeowners": [],
+  "config_flow": true,
+  "documentation": "https://github.com/",
+  "iot_class": "local_push",
+  "version": "1.0.0"
+}
