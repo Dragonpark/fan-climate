@@ -3,6 +3,10 @@
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/default)
 
 A Home Assistant custom integration that automatically controls a fan's speed based on a climate or temperature sensor entity's reading.
+I am aware automation can handle this, but was having mixed results whenever trying to do what I wanted via those automations.
+
+AI DISCLAIMER: This was entirely written in via Copilot. I could not find an integration that did what I wanted to do and did not have the
+experience writing an integration.
 
 ## Features
 
